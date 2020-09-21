@@ -12,3 +12,5 @@ while (True):
     for i in range(5):
         print('... relaxing %s minutes'%i)
         time.sleep(60)
+    playsound('Midnight-chimes-sound-effect.mp3')
+    input('Continue work ....')
